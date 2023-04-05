@@ -16,7 +16,6 @@ func EnvironmentFileSetup() {
 
 func EnvironmentVariableCheck() {
 	var requireEnvVariableList = []string{
-		"PORT",
 		"TZ",
 		"API_COVID_CASE_URL",
 	}
