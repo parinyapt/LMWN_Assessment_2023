@@ -6,7 +6,6 @@ require (
 	github.com/gin-contrib/cors v1.4.0
 	github.com/gin-gonic/gin v1.9.0
 	github.com/joho/godotenv v1.5.1
-	github.com/parinyapt/PT-Friendship_Backend v0.0.0-20230313024848-191c477805af
 	golang.org/x/time v0.3.0
 )
 
