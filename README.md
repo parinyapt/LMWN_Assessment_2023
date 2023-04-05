@@ -1,4 +1,4 @@
-# Summary Covid Case API
+# Covid Case Summary API
 LINE MAN Wongnai Intern - Software Engineer, Backend (Go) Assessment
 ## Getting Started
 #### Step 1: Add Environment Variable on .env file
