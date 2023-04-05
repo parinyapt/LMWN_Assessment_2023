@@ -26,7 +26,6 @@ func CovidCaseApiFetch() (models.CovidCaseApiFetchResponse, error) {
 		errorMessage = errors.Wrap(errorMessage, fmt.Sprintf("[ ioutil.ReadAll Response Body Error ] -> %s", err.Error()))
 		return models.CovidCaseApiFetchResponse{}, errorMessage
 	}
-	// fmt.Println(string(responseData))
 
 	var responseData models.CovidCaseApiFetchResponse
   if err = json.Unmarshal(responseBody, &responseData); err == nil {
